@@ -4,35 +4,76 @@ html	{
 }
 body	{
     min-height: 100%;
-    margin: 0 5%;
     background-color: rgb(255, 255, 255);
     position: relative;
     color: white;
     text-align: center;
 }
-/*EndGeral*/
+/*End Geral*/
 
 /*Header Menu*/
-    /*Menu List*/
-        #menu	{
-            background-color: #555;
-            overflow: hidden;
-        }
-        #menu ul	{
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
-        #menu a	{
+        #icon-menu   {
             float: left;
-            color: #FFF;
-            text-decoration: none;
-            padding: 16px 3%;
-            font-size: 100%;
-            cursor: pointer;
+            display: none;
         }
-        #menu a:hover	{
-            background-color: #000;
+        #q  {
+            background-color: white;
+            width: calc(100% - 32px);
+            height: 32px;
+            display: none;
         }
-    /*End Menu List*/
+
+        /*Menu List extra*/
+            #menu	{
+                background-color: rgb(127, 127, 127);
+                overflow: hidden;
+            }
+            #menu ul	{
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+            #menu a	{
+                float: left;
+                color: #FFF;
+                text-decoration: none;
+                padding: 16px 3%;
+                font-size: 100%;
+                cursor: pointer;
+            }
+            #menu a:hover	{
+                background-color: #000;
+            }
+        End Menu List*/
 /*End Header Menu*/
+
+/*Main*/
+ /*Menu Lateral*/
+    #menu-lateral  {
+        text-align: center;
+        background-color: rgb(148, 148, 148);
+        width: 200px;
+        float: left;
+    }
+    #menu-lateral ul   {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    #menu-lateral li    {
+        border: 1px black solid;
+    }
+    #menu-lateral a {
+        text-decoration: none;
+        color: #FFF;
+        font-size: 100%;
+        cursor: pointer;
+        display: block;
+        padding: 15px;
+    }
+    #menu-lateral a:hover {
+        background-color: rgb(223, 71, 71);
+    }
+ /*End Menu Lateral*/
+/*End Main*/
+

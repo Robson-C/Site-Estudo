@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-widht, initial-scale=1" />
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" media="(max-width: 767px)" href="css/celular.css" />
+	<link rel="stylesheet" media="(min-width: 767px)"href="css/estilo.css" />
+	<title>Sabore Estudo</title>
+	</head>
+</head>
+<body>
+    <header>
+        <img src="img/menu.png" alt="Menu" id="icon-menu" onclick="abrirMenu()">
+        <input type="search" name="q" id="q">
+        <nav id="menu" class="esconde">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="html5.html">HTML5</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JavaScript</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+
+            <!--Paragrafo-->
+            <section>
+                <h1>Paragrafo</h1>
+                <p>O elemento &lt;p&gt; representa um parágrafo do texto.</p>
+                <p>Em um documento HTML usamos  &lt;p&gt; para definir um paragrafo.</p>
+                <p>Parágrafos são elementos em bloco (block).</p>
+                <div class="exemplo bg1">
+                    <p class="tdestaque1">Visualmente no HTML:</p>
+                    <p>Aqui temos um paragrafo.</p>
+                </div>
+                <div class="exemplo bg2">        
+                    <p class="tdestaque2">No documento HTML:</p>
+                    <p><span class="destaque">&lt;p&gt;</span>Aqui temos um paragrafo.<span class="destaque">&lt;/p&gt;</span></p>
+                </div>
+            </section>
+
+            <!--Títulos-->
+            <section>
+                <h1>Títulos</h1>
+                <p>O elemento &lt;h1&gt; a  &lt;h6&gt; representa os títulos em um texto.</p>
+                <p>&lt;h1&gt; é o título principal, caso precise de um subtítulo se usa &lt;h2&gt; e assim por diante.</p>
+                <p>Títulos são elementos em bloco (block).</p>
+                <div class="exemplo bg1">
+                    <p class="tdestaque1">Visualmente no HTML:</p>
+                    <h1>Aqui temos um Título.</h1>
+                </div>
+                <div class="exemplo bg2">
+                    <p class="tdestaque2">No documento HTML:</p>
+                    <p><span class="destaque">&lt;h1&gt;</span>Aqui temos um Título.<span class="destaque">&lt;/h1&gt;</span></p>
+                </div>
+
+                <p>Outro exemplo com todos os níveis de títulos.</p>
+                
+                <div class="exemplo bg1">
+                    <p class="tdestaque1">Visualmente no HTML:</p>
+                    <h1>Aqui um Título Nível 1.</h1>
+                    <h2>Aqui um Título Nível 2.</h2>
+                    <h3>Aqui um Título Nível 3.</h3>
+                    <h4>Aqui um Título Nível 4.</h4>
+                    <h5>Aqui um Título Nível 5.</h5>
+                    <h6>Aqui um Título Nível 6.</h6>
+                </div>
+                <div class="exemplo bg2">
+                    <p class="tdestaque2">No documento HTML:</p>
+                    <p><span class="destaque">&lt;h1&gt;</span>Aqui um Título Nível 1.<span class="destaque">&lt;/h1&gt;</span></p>
+                    <p><span class="destaque">&lt;h2&gt;</span>Aqui um Título Nível 2.<span class="destaque">&lt;/h2&gt;</span></p>
+                    <p><span class="destaque">&lt;h3&gt;</span>Aqui um Título Nível 3.<span class="destaque">&lt;/h3&gt;</span></p>
+                    <p><span class="destaque">&lt;h4&gt;</span>Aqui um Título Nível 4.<span class="destaque">&lt;/h4&gt;</span></p>
+                    <p><span class="destaque">&lt;h5&gt;</span>Aqui um Título Nível 5.<span class="destaque">&lt;/h5&gt;</span></p>
+                    <p><span class="destaque">&lt;h6&gt;</span>Aqui um Título Nível 6.<span class="destaque">&lt;/h6&gt;</span></p>
+                </div>
+            </section>
+
+            <!--Quebra de linha-->
+            <section>
+                <h1>Quebra de linha</h1>
+                <p>O elemento &lt;br&gt; realiza uma quebra de linha em um texto. É útil para onde a divisão de linha é significante.</p>
+                <p>Em um documento HTML usamos  &lt;br&gt; para definir uma quebra de linha.</p>
+                <p>Quebra de linhas são elementos em linha (inline).</p>
+                <div class="exemplo bg1">
+                    <p class="tdestaque1">Visualmente no HTML:</p>
+                    <p><span class="destaque">&lt;p&gt;</span>Aqui temos um paragrafo comun e aqui"quebramos"<br>
+                     a linha.<span class="destaque">&lt;/p&gt;</span>
+                    </p>
+                </div>
+                <div class="exemplo bg2">        
+                    <p class="tdestaque2">No documento HTML:</p>
+                    <p><span class="destaque">&lt;p&gt;</span>Aqui temos um paragrafo comun e aqui"quebramos" 
+                        <span class="destaque">&lt;br&gt;</span><br>a linha.<span class="destaque">&lt;/p&gt;</span>
+                    </p>
+                </div>
+            </section>
+
+        </article>
+    </main>
+
+    <footer>
+
+    </footer>
+    <script src="js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+/*Geral*/
+    html	{
+        margin: 0 3%;
+        border: 1px #777 solid;
+    }
+    body	{
+        min-height: 100%;
+        background-color: #999;
+    }
+    main    {
+        padding: 10px;
+        background-color: white;
+    }
+    .bg1{background-color: rgb(207, 206, 206);}
+    .bg2{background-color: rgba(158, 229, 235, 0.568);}
+/*End Geral*/
+
+/*Header Menu*/
+    #icon-menu   {
+        float: left;
+        border: 1px #555 solid;
+    }
+    #icon-menu:hover   {
+        border: 1px black solid;
+    }
+    #q  {
+        background-color: white;
+        width: calc(100% - 34px);
+        height: 34px;
+    }
+    /*Menu List*/
+        .esconde    {display: none;}
+        .mostra   {display: block;}
+        #menu   {
+            background-color: rgb(127, 127, 127);
+            text-align: center;
+        }
+        #menu ul	{
+            margin: 0;
+            padding: 0;
+        }
+        #menu li    {
+            border: 1px black solid;
+        }
+        #menu a	{
+           display: block;
+            color: #FFF;
+            text-decoration: none;
+            font-size: 100%;
+            cursor: pointer;
+            line-height: 32px;
+        }
+        #menu a:hover	{
+            background-color: #000;
+        }
+    /*End Menu List*/
+/*End Header Menu*/
+
+/*Main*/
+    aside a   {
+        font-size: 18px;
+        color: blue;
+    }
+    #html   {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    section {
+        padding-bottom: 10px;
+        border-bottom: 1px solid black;
+    }
+    .exemplo    {
+        border: 1px solid black;
+        padding: 5px;
+    }
+    .destaque   {
+        color: red;
+    }
+    .tdestaque1  {
+        color: rgb(44, 116, 175);
+        font-size: 18px;
+    }
+    .tdestaque2  {
+        color: rgb(209, 1, 1);
+        font-size: 18px;
+    }
+/*End Main*/
+

@@ -4,13 +4,16 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-widht, initial-scale=1" />
 	<link rel="stylesheet" href="css/normalize.css" />
-	<link rel="stylesheet" href="css/estilo.css" />
+	<link rel="stylesheet" media="(max-width: 767px)" href="css/celular.css" />
+	<link rel="stylesheet" media="(min-width: 767px)"href="css/estilo.css" />
 	<title>Sabore Estudo</title>
 	</head>
 </head>
 <body>
     <header>
-        <nav id="menu">
+        <img src="img/menu.png" alt="Menu" id="icon-menu" onclick="abrirMenu()">
+        <input type="search" name="q" id="q">
+        <nav id="menu" class="esconde">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="html5.html">HTML5</a></li>
@@ -20,8 +23,14 @@
         </nav>
     </header>
 
+    <main>
 
+    </main>
 
+    <footer>
+
+    </footer>
+    <script src="js/script.js"></script>
 
 </body>
 </html>
