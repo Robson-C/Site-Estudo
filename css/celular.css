@@ -11,6 +11,7 @@
         padding: 10px;
         background-color: white;
     }
+    strong{font-size: 120%;}
     .bg1{background-color: rgb(207, 206, 206);}
     .bg2{background-color: rgba(158, 229, 235, 0.568);}
 /*End Geral*/
@@ -38,6 +39,7 @@
         #menu ul	{
             margin: 0;
             padding: 0;
+            list-style: none;
         }
         #menu li    {
             border: 1px black solid;
@@ -46,7 +48,6 @@
            display: block;
             color: #FFF;
             text-decoration: none;
-            font-size: 100%;
             cursor: pointer;
             line-height: 32px;
         }
@@ -58,7 +59,7 @@
 
 /*Main*/
     aside a   {
-        font-size: 18px;
+        
         color: blue;
     }
     #html   {
@@ -79,11 +80,9 @@
     }
     .tdestaque1  {
         color: rgb(44, 116, 175);
-        font-size: 18px;
     }
     .tdestaque2  {
         color: rgb(209, 1, 1);
-        font-size: 18px;
     }
 /*End Main*/
 

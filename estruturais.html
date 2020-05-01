@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-widht, initial-scale=1" />
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" media="(max-width: 767px)" href="css/celular.css" />
+	<link rel="stylesheet" media="(min-width: 767px)" href="css/estilo.css" />
+	<title>Estruturais</title>
+	</head>
+</head>
+<body>
+    <header>
+        <img src="img/menu.png" alt="Menu" id="icon-menu" onclick="abrirMenu()">
+        <input type="search" name="q" id="q">
+        <nav id="menu" class="esconde">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="html5.html">HTML5</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JavaScript</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+
+            <!--Head-->
+            <section>
+                <h1>Head</h1>
+                <p>O elemento &lt;head&gt; é como se fosse um cabeçalho para conteúdo introdutório para o documento HTML.</p>
+                <p>No documento HTML o elemento &lt;head&gt; é um contêiner para se definir metadados (dados sobre dados) e também incluindo seu título e links para scripts e folhas de estilos.</p>
+                <p>Tudo dentro de &lt;head&gt; <strong>não</strong> é visível.</p>
+                <div class="exemplo bg2">        
+                    <p class="tdestaque2">No documento HTML:</p>
+                    <p>&lt;head&gt;</p>
+                    <p>&lt;meta charset="utf-8"&gt;</p>
+                    <p>&lt;title&gt;Sabore Estudo&lt;/title&gt;</p>
+                    <p>&lt;/head&gt;</p>
+                    </p>
+                </div>
+            </section>
+
+            <!--Body-->
+            <section>
+                <h1>Body</h1>
+                <p>A tag &lt;body&gt; é onde vai toda a parte visual do site.</p>
+                <p>O elemento &lt;body&gt; contém todo o conteúdo de um documento HTML, seja títulos, parágrafos, imagens, links, audios, etc.</p>
+                <p>Tudo dentro de &lt;body&gt; <strong>é</strong> visível.</p>
+
+                <div class="exemplo bg1">
+                    <p class="tdestaque1">Visualmente no HTML:</p>
+                    <p>Aqui temos um parágrafo no corpo da página.</p>
+                </div>
+                <div class="exemplo bg2">        
+                    <p class="tdestaque2">No documento HTML:</p>
+                    <p>&lt;body&gt;</p>
+                        <p>&lt;p&gt;Aqui temos um parágrafo no corpo da página.&lt;/p&gt;</p>
+                    <p>&lt;/body&gt;</p>
+                </div>
+            </section>
+
+
+
+        </article>
+    </main>
+
+    <footer>
+
+    </footer>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
+
+<!--
+<header></header> – Essas tags definem um cabeçalho. Portanto, todo conteúdo que estiver dentro dela faz parte de um cabeçalho, podendo ser utilizado dentro de outras sessões. Não confundir com as tags <head>;
+<main></main> – Essas tags representam o conteúdo principal do seu corpo, ou seja, o conteúdo relacionado diretamente com o tópico central da página ou com a funcionalidade central da aplicação;
+<footer></footer> – Essas tags definem um rodapé para a página, geralmente utilizadas no final da página;
+<section></section> – Essas tags definem uma sessão para sua página;
+<article></article> – Essas tags definem um artigo da sua página. Nesse sentido, são utilizadas para separar o conteúdo da sua página. Muito utilizado principalmente por blogs ou páginas de conteúdo;
+<aside></aside> – Essas tags representam uma seção de uma página cujo conteúdo é tangencialmente relacionado ao conteúdo do seu entorno, que poderia ser considerado separado do conteúdo;
+<nav></nav> – Essa tag define um conteúdo de navegação. Portanto, é muito utilizado em conjunto com listas e na criação de menus;
+<div></div> – Define uma divisão da página. Desta forma, funciona como um container para conteúdo de fluxo. Uma vez que não possui um valor semântico, é muito utilizado para organizar melhor o conteúdo. Anteriormente ao HTML5, era utilizado no lugar das categorias acima.
+-->
