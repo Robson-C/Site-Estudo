@@ -1,4 +1,5 @@
-let menu = document.querySelector("#menu")
+let menu = document.querySelector('#menu');
+let lateral = document.querySelector('#lateral');
 
 function abrirMenu() {
     if(menu.classList == "esconde"){
@@ -9,3 +10,4 @@ function abrirMenu() {
         menu.classList.add("esconde");
     }
 }
+

@@ -1,79 +1,86 @@
 /*Geral*/
-html	{
-    height: 100%;
-}
-body	{
-    min-height: 100%;
-    background-color: rgb(255, 255, 255);
-    position: relative;
-    color: white;
-    text-align: center;
-}
+    html	{
+        height: 100%;
+    }
+    body	{
+        min-height: 100%;
+        background-color: rgb(255, 255, 255);
+    }
+    main{
+        width: calc(100% - 231px);
+        float: right;
+        border-left: 1px solid black;
+        padding: 15px;
+    }
 /*End Geral*/
 
 /*Header Menu*/
-        #icon-menu   {
+     #icon-menu, #q  {
+        display: none;
+    }
+    /*Menu Lateral*/
+        #menu	{
+            background-color: rgb(127, 127, 127);
+            overflow: hidden;
+        }
+        #menu ul	{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        #menu a	{
             float: left;
-            display: none;
+            color: #FFF;
+            text-decoration: none;
+            padding: 16px 3%;
+            font-size: 100%;
+            cursor: pointer;
         }
-        #q  {
-            background-color: white;
-            width: calc(100% - 32px);
-            height: 32px;
-            display: none;
+        #menu a:hover	{
+            background-color: #000;
         }
-
-        /*Menu List extra*/
-            #menu	{
-                background-color: rgb(127, 127, 127);
-                overflow: hidden;
-            }
-            #menu ul	{
-                list-style: none;
-                margin: 0;
-                padding: 0;
-            }
-            #menu a	{
-                float: left;
-                color: #FFF;
-                text-decoration: none;
-                padding: 16px 3%;
-                font-size: 100%;
-                cursor: pointer;
-            }
-            #menu a:hover	{
-                background-color: #000;
-            }
-        End Menu List*/
+    /*End Menu List*/
 /*End Header Menu*/
 
 /*Main*/
- /*Menu Lateral*/
-    #menu-lateral  {
-        text-align: center;
-        background-color: rgb(148, 148, 148);
-        width: 200px;
-        float: left;
+    /*Menu Lateral*/
+        #lateral  {
+            text-align: left;
+            float: left;
+            width: 200px;
+        }
+        #lateral ul   {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        #lateral li    {
+            border-bottom: 1px solid black;
+        }
+        #lateral a {
+            text-decoration: none;
+            font-size: 100%;
+            cursor: pointer;
+            display: block;
+            padding: 15px;
+        }
+        #menu-lateral a:hover {
+            background-color: rgb(223, 71, 71);
+        }
+    /*End Menu Lateral*/
+    section {
+        padding-bottom: 10px;
+        border-bottom: 1px solid black;
     }
-    #menu-lateral ul   {
-        list-style: none;
-        padding: 0;
-        margin: 0;
+    .exemplo    {
+        border: 1px solid black;
+        padding: 5px;
     }
-    #menu-lateral li    {
-        border: 1px black solid;
-    }
-    #menu-lateral a {
-        text-decoration: none;
-        color: #FFF;
-        font-size: 100%;
-        cursor: pointer;
-        display: block;
-        padding: 15px;
-    }
-    #menu-lateral a:hover {
-        background-color: rgb(223, 71, 71);
-    }
- /*End Menu Lateral*/
+    strong{font-size: 120%;}
+    .destaque   {color: red;}
+    .tdestaque1  {color: rgb(44, 116, 175);}
+    .tdestaque2  {color: rgb(209, 119, 1);}
+    .bg1{background-color: rgb(207, 206, 206);}
+    .bg2{background-color: rgba(158, 229, 235, 0.568);}
 /*End Main*/
 
