@@ -23,7 +23,7 @@
         </nav>
     </header>
 
-    <aside id="lateral">
+    <aside id="lateral" class="esconde">
         <ul>
             <li><a href="texto.html">Edição de texto</a></li>
             <li><a href="estruturais.html">Estruturação da página</a></li>
@@ -37,7 +37,7 @@
             <!--Head-->
             <section>
                 <h1>Head</h1>
-                <p>O elemento &lt;head&gt; é como se fosse um cabeçalho para conteúdo introdutório para o documento HTML.</p>
+                <p>A tag &lt;head&gt; é como se fosse um cabeçalho para conteúdo introdutório para o documento HTML.</p>
                 <p>No documento HTML o elemento &lt;head&gt; é um contêiner para se definir metadados (dados sobre dados) e também incluindo seu título e links para scripts e folhas de estilos.</p>
                 <p>Tudo dentro de &lt;head&gt; <strong>não</strong> é visível no documento.</p>
                 <div class="exemplo bg2">        
@@ -55,7 +55,7 @@
                 <h1>Body</h1>
                 <p>A tag &lt;body&gt; é onde vai toda a parte visual do site.</p>
                 <p>O elemento &lt;body&gt; contém todo o conteúdo de um documento HTML, seja títulos, parágrafos, imagens, links, audios, etc.</p>
-                <p>Tudo dentro de &lt;body&gt; <strong>é</strong> visível.</p>
+                <p>Dentro de &lt;body&gt; vai o conteúdo visível diretamente como um parágrafo ou indiretamente como uma tag &lt;img&gt;.</p>
 
                 <div class="exemplo bg1">
                     <p class="tdestaque1">Visualmente no HTML:</p>
@@ -74,12 +74,12 @@
                 <h1>Header</h1>
                 <p>A tag &lt;header&gt; é úsada para definir um cabeçalho de um documento ou seção.</p>
                 <p>O elemento &lt;header&gt; contém geralmente um título e um logo, também pode ser úsado para formulario de pesquisa ou súmario, no geral conteúdo de cabeçalho.</p>
-                <p>O documento HTML pode conter vários &lt;header&gt; cada um em sua seção.</p>
+                <p>O documento HTML pode conter vários &lt;header&gt; em um documento, cada um em sua seção.</p>
 
                 <div class="exemplo bg1">
                     <p class="tdestaque1">Visualmente no HTML:</p>
                     <h1>Aqui um título</h1>
-                    <input type="search" placeholder="Pesquisa">
+                    <input type="search" placeholder="Pesquisa" id="p">
                 </div>
                 <div class="exemplo bg2">        
                     <p class="tdestaque2">No documento HTML:</p>
@@ -119,9 +119,9 @@
             <!--Footer-->
             <section>
                 <h1>Footer</h1>
-                <p>O elemento &lt;footer&gt; demarca um rodapé para o documento HTML ou seção da qual pertence.</p>
-                <p>Normalmente uma tag &lt;footer&gt; contém informações sobre o autor da seção de dados, direitos autorais, mapa do site ou links para documentos relacionados.</p>                
-                <p>Você pode ter vários elementos &lt;footer&gt; em um documento.</p>
+                <p>A tag &lt;footer&gt; demarca um rodapé para o documento HTML ou seção da qual pertence.</p>
+                <p>O elemento &lt;footer&gt; contém informações sobre o autor da seção de dados, direitos autorais, mapa do site ou links para documentos relacionados.</p>
+                <p>O documento HTML pode conter vários &lt;footer&gt; em um documento, cada um em sua seção.</p>
 
                 <div class="exemplo bg1">
                     <p class="tdestaque1">Visualmente no HTML:</p>
@@ -135,6 +135,70 @@
                 </div>
             </section>
 
+            <!--Nav-->
+            <section>
+                <h1>Nav</h1>
+                <p>A tag &lt;nav&gt; define um conteúdo de navegação primário, geralmente o menu príncipal.</p>
+                <p>O elemento &lt;nav&gt; contém um mapa ou outro meio de navegação do site.</p>
+                <p>O documento HTML só pode ter <strong>um</strong> elemento &lt;nav&gt; em um documento.</p>
+
+                <div class="exemplo bg1">
+                    <p class="tdestaque1">Visualmente no HTML:</p>
+                    <p>
+                        <nav id="menu">
+                            <ul>
+                                <li><a>Home</a></li>
+                                <li><a>HTML5</a></li>
+                                <li><a>CSS</a></li>
+                                <li><a>JavaScript</a></li>
+                            </ul>
+                        </nav>
+                    </p>
+                </div>
+                <div class="exemplo bg2">        
+                    <p class="tdestaque2">No documento HTML:</p>
+                    <p><span class="destaque">&lt;nav id="menu"&gt;</span></p>
+                    <p><span class="destaque">&lt;ul&gt;</span></p>
+                    <p><span class="destaque">&lt;li&gt;&lt;a&gt;</span>Home<span class="destaque">&lt;/a&gt;&lt;/li&gt;</span></p>
+                    <p><span class="destaque">&lt;li&gt;&lt;a&gt;</span>HTML5<span class="destaque">&lt;/a&gt;&lt;/li&gt;</span></p>
+                    <p><span class="destaque">&lt;li&gt;&lt;a&gt;</span>CSS<span class="destaque">&lt;/a&gt;&lt;/li&gt;</span></p>
+                    <p><span class="destaque">&lt;li&gt;&lt;a&gt;</span>JavaScript<span class="destaque">&lt;/a&gt;&lt;/li&gt;</span></p>
+                    <p><span class="destaque">&lt;/ul&gt;</span></p>
+                    <p><span class="destaque">&lt;/nav&gt;</span></p>
+                </div>
+            </section>
+
+            <!--Aside-->
+            <section>
+                <h1>Aside</h1>
+                <p>A tag &lt;aside&gt; representa uma seção de uma página cujo conteúdo é relacionado ao assunto que o rodeia, que poderia ser considerado separado do conteúdo príncipal.</p>
+                <p>O elemento &lt;aside&gt; é bem parecido com o elemento &lt;nav&gt;, mas diferente em suas funções.</p>
+                <p>O documento HTML pode conter vários &lt;aside&gt; em um documento, cada um em sua seção.</p>
+
+                <div class="exemplo bg1">
+                    <p class="tdestaque1">Visualmente no HTML:</p>
+                    <p>
+                        <aside id="menu">
+                            <ul>
+                                <li><a>Extra 1</a></li>
+                                <li><a>Extra 2</a></li>
+                                <li><a>Extra 3</a></li>
+                            </ul>
+                        </nav>
+                    </p>
+                </div>
+                <div class="exemplo bg2">        
+                    <p class="tdestaque2">No documento HTML:</p>
+                    <p><span class="destaque">&lt;aside id="menu"&gt;</span></p>
+                    <p><span class="destaque">&lt;ul&gt;</span></p>
+                    <p><span class="destaque">&lt;li&gt;&lt;a&gt;</span>Extra 1<span class="destaque">&lt;/a&gt;&lt;/li&gt;</span></p>
+                    <p><span class="destaque">&lt;li&gt;&lt;a&gt;</span>Extra 2<span class="destaque">&lt;/a&gt;&lt;/li&gt;</span></p>
+                    <p><span class="destaque">&lt;li&gt;&lt;a&gt;</span>Extra 3<span class="destaque">&lt;/a&gt;&lt;/li&gt;</span></p>
+                    <p><span class="destaque">&lt;/ul&gt;</span></p>
+                    <p><span class="destaque">&lt;/aside&gt;</span></p>
+                </div>
+            </section>
+
 
 
         </article>
@@ -143,18 +207,16 @@
     <footer>
 
     </footer>
+
     <script src="js/script.js"></script>
 
 </body>
 </html>
 
 <!--
- 
- Você pode ter vários <footer>elementos em um documento.
-<footer></footer> – Essas tags definem um rodapé para a página, geralmente utilizadas no final da página;
+
+    
 <section></section> – Essas tags definem uma sessão para sua página;
 <article></article> – Essas tags definem um artigo da sua página. Nesse sentido, são utilizadas para separar o conteúdo da sua página. Muito utilizado principalmente por blogs ou páginas de conteúdo;
-<aside></aside> – Essas tags representam uma seção de uma página cujo conteúdo é tangencialmente relacionado ao conteúdo do seu entorno, que poderia ser considerado separado do conteúdo;
-<nav></nav> – Essa tag define um conteúdo de navegação. Portanto, é muito utilizado em conjunto com listas e na criação de menus;
 <div></div> – Define uma divisão da página. Desta forma, funciona como um container para conteúdo de fluxo. Uma vez que não possui um valor semântico, é muito utilizado para organizar melhor o conteúdo. Anteriormente ao HTML5, era utilizado no lugar das categorias acima.
 -->
