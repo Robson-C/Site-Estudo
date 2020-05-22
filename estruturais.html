@@ -145,12 +145,12 @@
                 <div class="exemplo bg1">
                     <p class="tdestaque1">Visualmente no HTML:</p>
                     <p>
-                        <nav id="menu">
+                        <nav>
                             <ul>
-                                <li><a>Home</a></li>
-                                <li><a>HTML5</a></li>
-                                <li><a>CSS</a></li>
-                                <li><a>JavaScript</a></li>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">HTML5</a></li>
+                                <li><a href="#">CSS</a></li>
+                                <li><a href="#">JavaScript</a></li>
                             </ul>
                         </nav>
                     </p>
@@ -178,11 +178,11 @@
                 <div class="exemplo bg1">
                     <p class="tdestaque1">Visualmente no HTML:</p>
                     <p>
-                        <aside id="menu">
+                        <aside>
                             <ul>
-                                <li><a>Extra 1</a></li>
-                                <li><a>Extra 2</a></li>
-                                <li><a>Extra 3</a></li>
+                                <li><a href="#">Extra 1</a></li>
+                                <li><a href="#">Extra 2</a></li>
+                                <li><a href="#">Extra 3</a></li>
                             </ul>
                         </nav>
                     </p>
@@ -199,6 +199,106 @@
                 </div>
             </section>
 
+            <!--Section-->
+            <section>
+                <h1>Section</h1>
+                <p>A tag &lt;section&gt; carrega consigo a responsabilidade semântica, ela foi desenvolvida para representar seções de um documento.</p>
+                <p>O elemento &lt;section&gt; tem um propósito, ela não deve ser usada apenas por necessidades de estilização, como por exemplo, colocar um float ou estilizar um bloco específico. Ela pode sim conter uma estilização, desde que esse conteúdo realmente seja uma outra seção do seu documento.</p>
+                <p>Podemos comparar o uso dela com a página de um jornal, teríamos uma página, com diversas seções.</p>
+
+                <div class="exemplo bg1">
+                    <p class="tdestaque1">Visualmente no HTML:</p>
+                    <p>
+                        <h2>Título</h2>
+                        <p>Parágrafo dessa seção.</p>
+                        <h2>Outro título</h2>
+                        <p>Outra seção.</p>
+                    </p>
+                </div>
+                <div class="exemplo bg2">        
+                    <p class="tdestaque2">No documento HTML:</p>
+                    <p><span class="destaque">&lt;section&gt;</span></p>
+                    <p><span class="destaque">&lt;h2&gt;</span>Título<span class="destaque">&lt;/h2&gt;</span></p>
+                    <p><span class="destaque">&lt;p&gt;</span>Parágrafo dessa seção.<span class="destaque">&lt;/p&gt;</span></p>
+                    <p><span class="destaque">&lt;/section&gt;</span></p>
+                    <p><span class="destaque">&lt;section&gt;</span></p>
+                    <p><span class="destaque">&lt;h2&gt;</span>Outro título<span class="destaque">&lt;/h2&gt;</span></p>
+                    <p><span class="destaque">&lt;p&gt;</span>Outra seção.<span class="destaque">&lt;/p&gt;</span></p>
+                    <p><span class="destaque">&lt;/section&gt;</span></p>
+                </div>
+            </section>
+
+            <!--Article-->
+            <section>
+                <h1>Article</h1>
+                <p>A tag &lt;article&gt; representa uma composição independente em um documento, página, aplicação, ou site.</p>
+                <p>O elemento &lt;article&gt; é bem parecido com o elemento &lt;section&gt;, a diferença é se a seção faz sentido sozinho ou depende do resto do conteúdo.</p>
+                <p>Um capítulo de um livro, por exemplo, perderia o sentido, pois está fortemente associado ao contexto do resto da história - ele seria um &lt;section&gt;; já um post em um blog costuma ser independente de outros posts e faz sentido mesmo fora do contexto do site - ele seria um  &lt;article&gt;.</p>
+
+                <div class="exemplo bg1">
+                    <p class="tdestaque1">Visualmente no HTML:</p>
+                    <p>
+                        <h2>Título</h2>
+                        <p>Parágrafo dessa seção.</p>
+                        <h2>Outro título</h2>
+                        <p>Outra seção.</p>
+                    </p>
+                </div>
+                <div class="exemplo bg2">
+                    <p class="tdestaque2">Visualmente no HTML, se faz sentido sozinho:</p>
+                    <p><span class="destaque">&lt;article&gt;</span></p>
+                    <p><span class="destaque">&lt;h2&gt;</span>Título<span class="destaque">&lt;/h2&gt;</span></p>
+                    <p><span class="destaque">&lt;p&gt;</span>Parágrafo dessa seção.<span class="destaque">&lt;/p&gt;</span></p>
+                    <p><span class="destaque">&lt;/article&gt;</span></p>
+                    <p><span class="destaque">&lt;article&gt;</span></p>
+                    <p><span class="destaque">&lt;h2&gt;</span>Outro título<span class="destaque">&lt;/h2&gt;</span></p>
+                    <p><span class="destaque">&lt;p&gt;</span>Parágrafo de outra seção.<span class="destaque">&lt;/p&gt;</span></p>
+                    <p><span class="destaque">&lt;/article&gt;</span></p>
+                </div>
+                <div class="exemplo bg2">
+                    <p class="tdestaque2">Visualmente no HTML, se <strong>não</strong> faz sentido sozinho:</p>
+                    <p><span class="destaque">&lt;article&gt;</span></p>
+                    <p><span class="destaque">&lt;section&gt;</span></p>
+                    <p><span class="destaque">&lt;h2&gt;</span>Título<span class="destaque">&lt;/h2&gt;</span></p>
+                    <p><span class="destaque">&lt;p&gt;</span>Parágrafo dessa seção.<span class="destaque">&lt;/p&gt;</span></p>
+                    <p><span class="destaque">&lt;/section&gt;</span></p>
+                    <p><span class="destaque">&lt;section&gt;</span></p>
+                    <p><span class="destaque">&lt;h2&gt;</span>Outro título<span class="destaque">&lt;/h2&gt;</span></p>
+                    <p><span class="destaque">&lt;p&gt;</span>Parágrafo de outra seção.<span class="destaque">&lt;/p&gt;</span></p>
+                    <p><span class="destaque">&lt;/section&gt;</span></p>
+                    <p><span class="destaque">&lt;/article&gt;</span></p>
+                </div>
+            </section>
+
+            <!--Div-->
+            <section>
+                <h1>Div</h1>
+                <p>A tag &lt;div&gt; é muito utilizada quando precisamos agrupar elementos sem a necessidade do uso de um elemento semântico do HTML5. Isso acontece pois o elemento div não possui um valor semântico. Portanto, não representa nada para o navegador e para os mecanismos de buscas.</p>
+                <p>O elemento &lt;div&gt; é usado como um contêiner para elementos HTML - que é estilizado com CSS ou manipulado com JavaScript.</p>
+                <p>Geramente se usa quando nenhuma outra tag se encaixa na situação, como por exemplo: head, body, header, main, footer, nav, aside, section ou article.</p>                
+
+                <div class="exemplo bg1">
+                    <p class="tdestaque1">Visualmente no HTML:</p>
+                    <p>
+                        <h2>Título</h2>
+                        <p>Parágrafo dessa seção.</p>
+                        <h2>Outro título</h2>
+                        <p>Outra seção.</p>
+                    </p>
+                </div>
+                <div class="exemplo bg2">        
+                    <p class="tdestaque2">No documento HTML:</p>
+                    <p><span class="destaque">&lt;div&gt;</span></p>
+                    <p><span class="destaque">&lt;h2&gt;</span>Título<span class="destaque">&lt;/h2&gt;</span></p>
+                    <p><span class="destaque">&lt;p&gt;</span>Parágrafo dessa seção.<span class="destaque">&lt;/p&gt;</span></p>
+                    <p><span class="destaque">&lt;/div&gt;</span></p>
+                    <p><span class="destaque">&lt;div&gt;</span></p>
+                    <p><span class="destaque">&lt;h2&gt;</span>Outro título<span class="destaque">&lt;/h2&gt;</span></p>
+                    <p><span class="destaque">&lt;p&gt;</span>Outra seção.<span class="destaque">&lt;/p&gt;</span></p>
+                    <p><span class="destaque">&lt;/div&gt;</span></p>
+                </div>
+            </section>
+
 
 
         </article>
@@ -212,11 +312,3 @@
 
 </body>
 </html>
-
-<!--
-
-    
-<section></section> – Essas tags definem uma sessão para sua página;
-<article></article> – Essas tags definem um artigo da sua página. Nesse sentido, são utilizadas para separar o conteúdo da sua página. Muito utilizado principalmente por blogs ou páginas de conteúdo;
-<div></div> – Define uma divisão da página. Desta forma, funciona como um container para conteúdo de fluxo. Uma vez que não possui um valor semântico, é muito utilizado para organizar melhor o conteúdo. Anteriormente ao HTML5, era utilizado no lugar das categorias acima.
--->

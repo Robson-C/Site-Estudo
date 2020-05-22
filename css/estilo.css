@@ -7,9 +7,8 @@
         background-color: rgb(255, 255, 255);
     }
     main{
-        width: calc(100% - 231px);
-        float: right;
-        border-left: 1px solid black;
+        width: calc(90% - 231px);
+        float: left;
         padding: 15px;
     }
 /*End Geral*/
@@ -48,6 +47,7 @@
             text-align: left;
             float: left;
             width: 200px;
+            border-right: 1px solid black;
         }
         #lateral ul   {
             list-style: none;
@@ -74,7 +74,7 @@
     }
     .exemplo    {
         border: 1px solid black;
-        padding: 5px 15px 5px 5px;
+        padding: 5px 5px 5px 50px;
     }
     #p  {margin-bottom: 15px;}
     strong  {font-size: 120%;}
